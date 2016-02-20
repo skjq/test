@@ -25,7 +25,10 @@ git push -u origin master
 将你本地的仓库提交到你的github账号里，
 
 
-
+删除文件
+git rm 文件名
+git commit -m "ssss"
+git push -u origin master
 
 
 

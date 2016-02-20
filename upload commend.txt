@@ -1,0 +1,31 @@
+在初始化版本库之前，先要确认认证的公钥是否正确，如下：
+
+　　ssh -T git@github.com
+　　正确地结果如下：　
+
+　　Warning: Permanently added 'github.com,207.97.227.239' (RSA) to the list of known hosts.
+　　Hi findingsea! You've successfully authenticated, but GitHub does not provide shell access.
+　　会有一个Warning，不用理会。
+
+　　接下对库进行clone，如下：
+
+　　git clone https://github.com/findingsea/myRepoForBlog.git
+
+将下载下来的项目文件夹的所有文件及文件夹，包括.git文件夹在内，全部拷贝到你的托管项目的根目录（或者将你的托管项目拷贝到该目录）
+cd test
+进入到该托管项目的根目录。
+git add .    
+将改动的地方添加到版本管理器
+输入
+git  commit -m "changes log"  
+提交到本地的版本控制库里，
+引号里面是你对本次提交的说明信息。
+最后输入
+git push -u origin master  
+将你本地的仓库提交到你的github账号里，
+
+
+
+
+
+

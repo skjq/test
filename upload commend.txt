@@ -31,4 +31,7 @@ git commit -m "ssss"
 git push -u origin master
 
 
-
+更新文件
+提交所有更新 git commit -m "some msg" -a
+提交单个文件 git commit -m "add msg to readme.txt" readme.txt
+git push origin master
